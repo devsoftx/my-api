@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>tffp_services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\tffp-core\tffp-core.csproj" />
+    <ProjectReference Include="..\tffp-domain\tffp-domain.csproj" />
+  </ItemGroup>
+
+</Project>
